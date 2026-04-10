@@ -1,15 +1,25 @@
-﻿using System;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using DOT.Domain.Common;
 
 namespace DOT.Domain.Entities
 {
-    internal class User : AuditalbeEntity
+    public class User : AuditableEntity
     {
         public int Id { get; set; }
+        
         public string Email { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
-        public string FullName { get; set; }
-        public bool IsActive { get; set; }
+        public string FullName => $"{FirstName} {LastName}".Trim();
+        
+        public bool IsActive { get; set; } = true;
+        
+        // Navigation properties
+        public virtual ICollection<Requirement> Requirements { get; set; }
+        public virtual ICollection<RequirementComment> Comments { get; set; }
     }
 }
