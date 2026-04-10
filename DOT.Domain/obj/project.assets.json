@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aipal\\source\\repos\\DOT.Database\\DOT.Domain\\DOT.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\aipal\\source\\repos\\DOT\\DOT.Domain\\DOT.Domain.csproj",
       "projectName": "DOT.Domain",
-      "projectPath": "C:\\Users\\aipal\\source\\repos\\DOT.Database\\DOT.Domain\\DOT.Domain.csproj",
+      "projectPath": "C:\\Users\\aipal\\source\\repos\\DOT\\DOT.Domain\\DOT.Domain.csproj",
       "packagesPath": "C:\\Users\\aipal\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aipal\\source\\repos\\DOT.Database\\DOT.Domain\\obj\\",
+      "outputPath": "C:\\Users\\aipal\\source\\repos\\DOT\\DOT.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

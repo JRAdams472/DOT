@@ -1,8 +1,9 @@
 ﻿using System;
+using DOT.Domain.Common;
 
 namespace DOT.Domain.Entities
 {
-    internal class Attachment
+    internal class Attachment : AuditalbeEntity
     {
         public int Id { get; set; }
         public int RequirementId { get; set; }

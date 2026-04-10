@@ -1,8 +1,9 @@
 ﻿using System;
+using DOT.Domain.Common;
 
 namespace DOT.Domain.Entities
 {
-    internal class Requirement
+    internal class Requirement : AuditalbeEntity
     {
         public int Id { get; set; }
         public string Title { get; set; }
@@ -14,7 +15,6 @@ namespace DOT.Domain.Entities
         public string Category { get; set; }
         public int? AssignedToId { get; set; }
         public string AssignedTo { get; set; }
-        public DateTime CreatedDate { get; set; }
         public DateTime UpdatedDate { get; set; }
         public DateTime? DueDate { get; set; }
         public decimal? EstimationHours { get; set; }
