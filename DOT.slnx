@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="DOT.Database/DOT.Database.sqlproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="DOT.Domain/DOT.Domain.csproj" />
+</Solution>
