@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DOT.Domain.Entities
 {
-    public class RequirementTag
+    public class TagRequirement
     {
         public int RequirementId { get; set; }
         public virtual Requirement Requirement { get; set; }
@@ -15,7 +15,5 @@ namespace DOT.Domain.Entities
         public virtual Tag Tag { get; set; }
         
         public DateTime CreatedDate { get; set; }
-        
-        // Composite primary key
     }
 }

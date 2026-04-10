@@ -7,7 +7,7 @@ using DOT.Domain.Common;
 
 namespace DOT.Domain.Entities
 {
-    public class RequirementComment : AuditableEntity
+    public class Comment : AuditableEntity
     {
         public int Id { get; set; }
         

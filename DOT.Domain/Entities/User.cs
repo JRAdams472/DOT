@@ -20,6 +20,6 @@ namespace DOT.Domain.Entities
         
         // Navigation properties
         public virtual ICollection<Requirement> Requirements { get; set; }
-        public virtual ICollection<RequirementComment> Comments { get; set; }
+        public virtual ICollection<Comment> Comments { get; set; }
     }
 }

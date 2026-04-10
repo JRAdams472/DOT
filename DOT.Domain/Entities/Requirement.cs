@@ -37,16 +37,10 @@ namespace DOT.Domain.Entities
         public decimal? EstimationHours { get; set; }
         public decimal? ActualHours { get; set; }
         
-        // Audit fields
-        public DateTime CreatedDate { get; set; }
-        public DateTime UpdatedDate { get; set; }
-        public string CreatedBy { get; set; }
-        public string LastModifiedBy { get; set; }
-        
         // Navigation properties
-        public virtual ICollection<RequirementComment> Comments { get; set; }
+        public virtual ICollection<Comment> Comments { get; set; }
         public virtual ICollection<RequirementAttachment> Attachments { get; set; }
-        public virtual ICollection<RequirementTag> Tags { get; set; }
+        public virtual ICollection<TagRequirement> Tags { get; set; }
         
         // Soft delete
         public bool IsDeleted { get; set; } = false;
